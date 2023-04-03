@@ -1,4 +1,8 @@
 const FunKomponenta = () => {
-  return <div>Ovo je FunKomponenta</div>;
+  return (
+    <div>
+      <p>Ovo je FunKomponenta</p>
+    </div>
+  );
 };
 export default FunKomponenta;
