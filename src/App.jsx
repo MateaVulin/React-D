@@ -1,12 +1,12 @@
 import "./App.css";
 import FunKomponenta from "./components/FunKomponenta";
 import ManjeFunKomponenta from "./components/ManjeFunKomponenta";
-//import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function App() {
   const [message, setMessage] = useState(" ");
   const handleButtonClick = () => {
-    setMessage("Button clicked!");
+    console.log("Button clicked!");
   };
   return (
     <div>
