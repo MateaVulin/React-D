@@ -1,8 +1,12 @@
-const ManjeFunKomponenta = (props) => {
+import PropTypes from "prop-types";
+const ManjeFunKomponenta = ({ jasamklikizkomponente }) => {
   return (
     <div>
-      <button onClick={props.onButtonClick}>Click me</button>
+      <button onClick={jasamklikizkomponente}>Click me</button>
     </div>
   );
+};
+ManjeFunKomponenta.propTypes = {
+  jasamklikizkomponente: PropTypes.func.isRequired,
 };
 export default ManjeFunKomponenta;
